@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyForms</title>
+</head>
+<body>
+   <Strong><h1>My Feedback Form</h1></Strong>
+   <form action="" method="post">
+    <ul>
+        <li>
+            <label for="name">Name:</label>
+            <input type="text"  id="name" placeholder="Please enter your Name"><br>
+        </li>
+        <li>
+            <label for="email">Email:</label> 
+            <input type="email"  id="email" placeholder="Please enter your Email"><br>
+         </li>
+        <li>
+            <label for="pw">Password:</label>
+            <input type="password"  id="pw" minlength="6" maxlength="14" ><br>
+        </li><br>
+        <li>Please check all the emotions that apply to you:</li><br>
+        <li>
+            <label for="angry">Angry</label>
+            <input type="checkbox" name="emotions" id="angry">
+        </li><br>
+        <li>
+            <label for="sad">Sad</label>
+            <input type="checkbox" name="emotions" id="sad">
+        </li><br>
+        <li>
+            <label for="happy">Happy</label>
+            <input type="checkbox" name="emotions" id="happy">
+        </li><br>
+        <li>
+            <label for="amb">Ambivalet</label>
+            <input type="checkbox" name="emotions" id="amb">
+        </li><br>
+        <li>How satisfied were you with our service?</li><br>
+        <li>
+            <label for="1">Very satisfied</label>
+            <input type="radio" name="service" id="1"><br>
+        </li>
+        <li>
+             <label for="2">Satisfied</label>
+            <input type="radio" name="service" id="2"><br>
+        </li>
+        <li>
+            <label for="3">Didn't care</label>
+            <input type="radio" name="service" id="3"><br>
+        </li>
+        <li>
+            <label for="4">Dissatisfied</label>
+            <input type="radio" name="service" id="4"><br>
+        </li>
+        <li>   
+            <label for="5">Very dissatisfied</label>
+            <input type="radio" name="service" id="5"><br>
+        </li><br>
+
+        <li>
+            <label for="comment">Further comments:</label>
+            <input type="text" name="Com" id="comment" placeholder="Please enter your Comment"><br>
+        </li>
+        <li>
+            <label for="photo">Bio photo:</label> 
+            <input type="file" name="photo" id="photo">
+        <br><br>
+        </li>
+        <li><label for="location">Location visited:</label>
+            <select name="location" id="location"></select>
+        </li>
+        <button>Submit</button>
+    </ul>
+    
+
+   </form>
+    
+</body>
+</html>
